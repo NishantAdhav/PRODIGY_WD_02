@@ -1,0 +1,36 @@
+body {
+    background-color:orange;
+    color: white;
+    font-family:cursive ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.stopwatch {
+    margin: 20px;
+    border: 10px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px chartreuse;
+    text-align: center;
+}
+
+.display {
+    font-size: 3rem;
+}
+
+.btn {
+    margin: 10px;
+    width: 150px;
+    height: 50px;
+    font-size: 1.5rem;
+}
+
+.btn:hover {
+    transform: scale(1.1) rotate(5deg); /* Adjust the degree as per your preference */
+    transition: all 0.3s ease-in-out;
+    transform-style: flat;
+}
